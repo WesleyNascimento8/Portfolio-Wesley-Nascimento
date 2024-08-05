@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(img/Group\ 1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(39, 38, 38, 0.452);
+}
+
+.container-ul {
+    display: flex;
+    gap: 32px;
+}
+
+.container-img-logo {
+    height: 60px;
+}
+
+.container-ul a {
+    font-size: 12px;
+    color: #fff;
+}
+
+a:hover {
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+
+.container-contato {
+    font-size: 16px;
+    cursor: pointer;
+    color: #2ecc71;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+}
+
+.container-contato:hover {
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-contato:active {
+    transform: scale(0.95);
+}
+
+.main {
+    width: 450px;
+    margin-left: 220px;
+    margin-top: 150px;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.main h1 {
+    color: #fff;
+    font-size: 32px;
+    margin-top: 12px;
+}
+
+.main p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 12px;
+    line-height: 22px;
+}
+
+span {
+    color: #2ecc71;
+}
+
+.redes-sociais {
+    margin-top: 24px;
+}
+
+a {
+    padding: 12px;
+    padding-right: 12px;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.20, 1.20);
+    transition: 0.5s;
+}
+
+.redes-sociais img:active {
+    transform: scale(0.95);
+}
+
+.cv {
+    font-size: 16px;
+    cursor: pointer;
+    color: #2ecc71;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    margin-top: 32px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    height: 40px;
+}
+
+.cv:hover {
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.cv:active {
+    transform: scale(0.95);
+}
+
+.section-2 {
+    width: 100%;
+    margin-top: 100px;
+    background-image: url(img/black-chrome-gradient-ui-gradient-background\ 1.svg);
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 32px;
+
+}
+
+.sobre-mim p {
+    width: 500px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.section-skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+    padding: 20px;
+    margin-top: -32px;
+}
+
+.skills {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #272727;
+    border-radius: 10px;
+}
+
+.skills:active {
+    transform: scale(0.95);
+}
+
+.skills-2 {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #2ecc71; 
+    border-radius: 10px;
+    color: #fff;
+}
+
+.skills-2:active {
+    transform: scale(0.95);
+}
+
+.skills-info {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 32px;
+}
+
+.skills-h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.skills-more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    color: #fff;
+}
