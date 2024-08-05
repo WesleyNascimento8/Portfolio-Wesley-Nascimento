@@ -126,7 +126,7 @@ a {
     border-radius: 15px;
     font-size: 12px;
     width: 150px;
-    height: 40px;
+    height: 30px;
 }
 
 .cv:hover {
@@ -182,21 +182,11 @@ a {
     border-radius: 10px;
 }
 
+.skills:hover {
+    background-color: #2ecc71;
+}
+
 .skills:active {
-    transform: scale(0.95);
-}
-
-.skills-2 {
-    width: 250px;
-    height: 250px;
-    padding: 20px;
-    margin-top: 100px;
-    background-color: #2ecc71; 
-    border-radius: 10px;
-    color: #fff;
-}
-
-.skills-2:active {
     transform: scale(0.95);
 }
 
