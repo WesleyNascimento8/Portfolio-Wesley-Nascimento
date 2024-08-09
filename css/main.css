@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     width: 500px;
+    margin-left: 100px;
 }
 
 .main-info h2 {
@@ -51,9 +52,9 @@ span {
 }
 
 .img-main {
-    height: 650px;
-    margin-top: -130px;
-    margin-right: 120px;
+    height: 600px;
+    margin-top: -70px;
+    margin-right: 100px;
     max-width: 800px;
     z-index: -1;
 }
