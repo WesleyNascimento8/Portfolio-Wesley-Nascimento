@@ -1,0 +1,68 @@
+.section-2 {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 32px;
+
+}
+
+.sobre-mim p {
+    width: 500px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.section-skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+    padding: 20px;
+    margin-top: -32px;
+}
+
+.skills {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #272727;
+    border-radius: 10px;
+}
+
+.skills:hover {
+    background-color: #2ecc71;
+}
+
+.skills:active {
+    transform: scale(0.95);
+}
+
+.skills-info {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 32px;
+}
+
+.skills-h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.skills-more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    color: #fff;
+}
