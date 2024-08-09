@@ -81,8 +81,6 @@ span {
 
 
 
-
-
 @media screen and (max-width:930px) {
 
     .main {
@@ -115,10 +113,6 @@ span {
 @media screen and (max-width:625px) {
     .img-main {
         display: none;
-    }
-
-    main-info {
-        
     }
 }
 
