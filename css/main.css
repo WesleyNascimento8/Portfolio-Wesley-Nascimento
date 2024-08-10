@@ -122,4 +122,8 @@ span {
     .main {
         flex-direction: column;
     }
+
+    .section-skills {
+        flex-direction: column;
+    }
 }
