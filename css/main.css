@@ -10,7 +10,7 @@
 .main-info {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    max-width: 500px;
     margin-left: 100px;
 }
 
@@ -109,16 +109,17 @@ span {
     .main-info {
         width: 1200px;
     }
-}
 
-@media screen and (max-width:625px) {
-    .img-main {
+    .nav-list, .btn-contato {
         display: none;
     }
-}
 
-@media screen and (max-width:570px) {
-    .main-info {
-        width: 300px;
+    .img-logo {
+        margin: 0 auto;
+        height: 70px;
+    }
+
+    .main {
+        flex-direction: column;
     }
 }
