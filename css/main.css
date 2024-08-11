@@ -82,48 +82,4 @@ span {
 
 
 
-@media screen and (max-width:930px) {
 
-    .main {
-        flex-direction: row;
-        gap: 120px;
-    }
-
-    .main-info {
-        width: 300px;
-    }
-
-    .img-main {
-        height: 400px;
-    }
-}
-
-@media screen and (max-width:800) {
-    .main-info {
-        width: 150px;
-    }
-}
-
-@media screen and (max-width:768px) {
-
-    .main-info {
-        width: 1200px;
-    }
-
-    .nav-list, .btn-contato {
-        display: none;
-    }
-
-    .img-logo {
-        margin: 0 auto;
-        height: 70px;
-    }
-
-    .main {
-        flex-direction: column;
-    }
-
-    .section-skills {
-        flex-direction: column;
-    }
-}
